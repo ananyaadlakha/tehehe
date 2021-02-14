@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="Heart.png" sizes="16x16" type="image/icon" />
+    <title>LSM Generator</title>
+
+    <style>
+        body {
+            font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .container {
+            margin-left: 20vw;
+            margin-top: 17vw;
+            display: flex;
+        }
+
+        .copr {
+            font-size: x-small;
+            color: gray;
+        }
+
+        .bear {
+            border-radius: 2%;
+            width: 18vw;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .mainText {
+            max-width: 100%;
+            overflow: hidden;
+        }
+
+        .LSM_Wrap {
+            margin-top: 1.4vw;
+            margin-left: 6vw;
+            padding-right: 10vw;
+            color: gray;
+            word-wrap: break-word;
+            overflow: hidden;
+            max-width: 30%;
+        }
+
+        .LSM_Actual {
+            max-width: 10px;
+        }
+
+        .bearWrap {
+            margin-left: 4.5vw;
+            margin-top: 3vh;
+            object-fit: cover;
+        }
+
+        @media only screen and (max-width: 740px) {
+            .container {
+                display: block;
+                margin-right: 20vw;
+                margin-left: 20vw;
+            }
+
+            .bear {
+                border-radius: 2%;
+                width: 35vw;
+                max-width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+
+</head>
+
+<body onload="myFunction()">
+    <div class="container">
+        <div class="mainText">
+            <h1>LSM Generator</h1>
+
+            <p>I have a cat, a duck, and a doge.</p>
+            <p class="copr">Made with ❤️ on love day by Carl Kho © Valentine's 2021</p>
+        </div>
+        <br />
+        <div class="bearWrap">
+            <img src="Bear.jpg" alt="Bear owo" class="bear" />
+        </div>
+        <div class="LSM_Wrap">
+            <span class="LSM_Actual" id="myText"></span>
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+            var number = "HELLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO";
+            document.getElementById("myText").innerHTML = number;
+        }
+    </script>
+
+</body>
+
+</html>
