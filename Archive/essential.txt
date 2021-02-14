@@ -1,0 +1,3 @@
+https://www.geeksforgeeks.org/how-to-select-a-random-element-from-array-in-javascript/
+https://dev.to/ogurinkaben/13-reasons-why-you-should-be-using-netlify-kgl
+PLACE WEBSITES for LSM Getting here

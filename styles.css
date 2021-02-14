@@ -1,0 +1,41 @@
+body {
+    font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    margin-left: 20vw;
+    margin-top: 17vw;
+    display: flex;
+}
+
+.copr {
+    margin-top: 3vh;
+    font-size: xx-small;
+    color: gray;
+}
+
+.mainText {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.LSM_Wrap {
+    margin-top: -1vh;
+    margin-left: 6vw;
+    padding-right: 10vw;
+    color: gray;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-width: 40%;
+    text-align: justify;
+    margin-bottom: 10vh;
+}
+
+
+@media only screen and (max-width: 740px) {
+    .container {
+        display: block;
+        margin-right: 20vw;
+        margin-left: 20vw;
+    }
+}
