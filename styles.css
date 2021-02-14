@@ -10,9 +10,14 @@ body {
 }
 
 .copr {
-    margin-top: 3vh;
+    margin-top: 2.6vh;
     font-size: xx-small;
     color: gray;
+}
+
+.coprLink {
+    text-decoration: none;
+    color: black;
 }
 
 .mainText {
@@ -39,7 +44,7 @@ body {
   border-radius: 10vw;
   padding: 15px 32px;
   text-align: center;
-  font-size: 1vw;
+  font-size: 0.8vw;
   outline: none;
   margin: 4px 2px;
   cursor: pointer;
