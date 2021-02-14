@@ -5,55 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/jpg" href="Heart.png" sizes="16x16" type="image/icon" />
+    <link rel="icon" type="image/jpg" href="images\Heart.png" sizes="16x16" type="image/icon" />
+    <link rel="stylesheet" href="styles.css">
+
     <title>LSM Generator</title>
-
-    <style>
-        body {
-            font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
-        }
-
-        .container {
-            margin-left: 20vw;
-            margin-top: 17vw;
-            display: flex;
-        }
-
-        .copr {
-            margin-top: 3vh;
-            font-size: xx-small;
-            color: gray;
-        }
-
-        .mainText {
-            max-width: 100%;
-            overflow: hidden;
-        }
-
-        .LSM_Wrap {
-            margin-top: -1vh;
-            margin-left: 6vw;
-            padding-right: 10vw;
-            color: gray;
-            word-wrap: break-word;
-            overflow: hidden;
-            max-width: 40%;
-            text-align: justify;
-        }
-
-
-        @media only screen and (max-width: 740px) {
-            .container {
-                display: block;
-                margin-right: 20vw;
-                margin-left: 20vw;
-            }
-        }
-    </style>
-
 </head>
 
-<body onload="myFunction()">
+<body>
     <div class="container">
         <div class="mainText">
             <h1 style="line-height: 1px;">LSM Generator</h1>
@@ -66,19 +24,10 @@
         <br />
         <div class="LSM_Wrap">
             <p id="LSMTxt">Click the button to generate a sweet message for your special someone ;)</p>
-
-            <script>
-                var down = document.getElementById('LSMTxt');
-
-                var arr = ["It’s been a good memory, each time I think of you. And then in my dreams comes a replay of your unabashed love, in rhythmical ways than words can tell. Each time I look at the morning sun, it reminds me of how your love shines in me. Each ray depicting the extent to which your care has gone in my soul. You continue to rock my world! Then when the breeze blows and I can’t tell from where it comes, I remember how difficult it’s been for me to get a grasp of your untold care for me. Your love has meant so much for me, it’s taken away all limitations. Your love has given enough reasons to know that true love exists. And when I sleep I night, I sigh, smile and sometimes would laugh… Because you’ve been all I needed in every single moment of the day and another day would come with you in it with me. You’ve made my love story sweet. You are sweet yourself and I see us going greatly each passing day. I love you for all you’ve done and are doing. I will forever appreciate your love. Thank you.", "I sat and looked back to how far we’ve come together. We have travelled a distance immeasurable and have plied mental paths that can’t be verbalized. I looked within my heart only to see how rhythmical it’s been beating… from the very first day it clung in love with yours – since I met you! You’ve been so amazing, than the best of descriptive Adjectives could help demonstrate. Your selfless acts of love has transformed the whole of me, beyond what I did envisage. Your love has brought out the best in me. I’ve hit a limelight! And I would have disagreed that love could give this much until you came into my life and gave all of you to my wellbeing. With each passing day, you gave enough commitment to see me going great. Just to let you know, I’m amazed by all you do and I can see that only a lifetime will be enough to thank you for all that you have done for me. I love you. I really do. I will forever do.", "The day you walked beautifully into my life. All you brought into my life… Peace like a river, Joy unspeakable and love ineffable. My life took a turn around. My heart knew a new beat and my soul hum a new song. My days has become brighter and my night more restful. Every day comes to me with a new side of love that is yet untold. You feature in all that I do. From the very first day, I knew I made a right choice. I knew this boat of love is heading towards a safe landing. I only wish I had met you earlier. I wonder how very sweet things would have been. Even now, I’m grateful you came my way. What would life had been without you! You’re my star and my sunshine. You brighten me at day and beautify my dream at night. You are the reason I wake up with fresh hopes. You are why my Joy knows no bound. Loving you is one habit I’m addicted to. And I will go deeper into it until I’m lost in you, my love. Giving you my all is a debt I owe and it’s obvious that I just can’t pay it all. I love you much more than you can ever comprehend. Yes, I love you.", "I was in a mental hell I had no hope of coming back from. I was in a daily mess I got no strength to come out of. I got a one-way ticket to a wasteful life, a long ride on the path to a journey of no return… Until I met you! I just couldn’t enjoy the rays from the sun, since all I saw was darkness hovering over my soul. The night times used to be worst, it’s when I would see all the anxieties of the world caving in on me… Until I met you! My life was a pack of mess, I was a prisoner of heartbreak, a lifer in the confines of bereavement and a subscriber of ceaseless dejection… Until I met you. Love truly meant nothing, life really worth nothing, the future always looked bleak and my past loss kept calling on me. There was nothing good that came to mind whenever I think of the world… Until I met you! And now see how you’ve turned me on, gave a ride to paradise! Look how you’ve gave a hope enough to anchor on forever. See how the sun reminds me of your love in my heart and the night stars and moon tells me of your ceaseless love and care! Now I wake up with the load of hope enough to activate the whole world and I sleep at night with no link to anxiety! Can You see how you’ve given all of you when I needed just a hand? Can you see how you’ve been the Angel that ported me from hell to heaven on earth? I love you… I so much love you."];
-                function LSMRand() {
-                    down.innerHTML = arr[Math.floor(Math.random() * arr.length)];
-                } 
-            </script>
         </div>
     </div>
 
-
+    <script src="randLSM.js"></script>
 </body>
 
 </html>
