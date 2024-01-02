@@ -13,7 +13,7 @@ var lsm10 = "Never ever doubt yourself because someone made you do so. You're on
 var lsm11 = "Is this what they call love bombing? damn I am red flag but eh i am too deep in now haha";
 var lsm12 = "You deserve to be loved without having to hide the parts of yourself that you think are unlovable, and I can only hope I am able to provide you a safe space for doing so.";
 var lsm13 = "I hope somehwere along the way, I hope you know you deserve everything i do for you, it's not about raising standards lol but for you to feel the love, you put out so generously in this world. It is only fair I am able to reflect some back at you. Thank you for being the most amazing person. I love you";
-var lsm14 = "Also please never think about where this might end up, cause at the end of the day- It would be privilege to have my heart broken by you";
+var lsm14 = "i love you";
 var lsm15 = "And I promise you...I swear...that I love you more as you read this, than I did when i wrote it ❤";
 
 var msgs = [lsm1, lsm2, lsm3, lsm4, lsm5, lsm6, lsm7, lsm8, lsm9, lsm10, lsm11, lsm12, lsm13, lsm14, lsm15];
