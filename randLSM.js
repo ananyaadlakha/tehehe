@@ -15,8 +15,9 @@ var lsm12 = "You deserve to be loved without having to hide the parts of yoursel
 var lsm13 = "I hope somehwere along the way, I hope you know you deserve everything i do for you, it's not about raising standards lol but for you to feel the love, you put out so generously in this world. It is only fair I am able to reflect some back at you. Thank you for being the most amazing person. I love you";
 var lsm14 = "i love you";
 var lsm15 = "And I promise you...I swear...that I love you more as you read this, than I did when i wrote it ❤";
+var lsm16 = "I want to see you win. I want to see you absolutely smash every single dream you have. I want to see you overcome all of the barriers you face, and I want to see you succeed. I'm your biggest fan, your top supporter, and I'll be with you every single step of the way, you're destined for greatness, with or without me I want to see you achieve it.";
 
-var msgs = [lsm1, lsm2, lsm3, lsm4, lsm5, lsm6, lsm7, lsm8, lsm9, lsm10, lsm11, lsm12, lsm13, lsm14, lsm15];
+var msgs = [lsm1, lsm2, lsm3, lsm4, lsm5, lsm6, lsm7, lsm8, lsm9, lsm10, lsm11, lsm12, lsm13, lsm14, lsm15, lsm16];
 
 function LSMRand() {
     down.innerHTML = msgs[Math.floor(Math.random() * msgs.length)];
